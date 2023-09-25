@@ -3,7 +3,9 @@ import img2 from '../Assets/image3.svg'
 import img3 from '../Assets/image4.svg'
 const Header = () => {
   return (
-    <div className='w-100 d-flex align-items-center justify-content-between p-3 py-1 top' style={{borderBottom: '1px solid black'}}>
+    <div className='w-100 d-flex align-items-center justify-content-between p-3 py-1 
+
+    ' style={{borderBottom: '1px solid black'}}>
         <div className="d-flex align-items-center">
               <img src={img2} alt="ministry" style={{ height: '4.5rem', width: '4.5rem' }} />
               <div className="d-flex flex-column ms-2">

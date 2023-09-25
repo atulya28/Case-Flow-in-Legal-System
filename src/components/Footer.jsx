@@ -9,7 +9,7 @@ import img8 from '../Assets/National-Informatics-Centre-in-India-Compromised-450
 
 const Footer = () => {
     return (
-        <div className='w-100 d-flex flex-column pt-0.5 bottom' style={{ borderTop: '1px solid black' }}>
+        <div className='w-100 d-flex flex-column pt-0.5 ' style={{ borderTop: '1px solid black' }}>
             <div className="d-flex w-100 justify-content-between px-0.5" style={{ height: '4rem' }}>
                 <img src={img2} alt="ministry" style={{ height: '100%' }} />
                 <img src={img6} alt="ministry" style={{ height: '100%' }} />
