@@ -21,13 +21,13 @@ const ForgetPassword = () => {
           <button className='login-btn2' onClick={() => setLoginstate(true)}>Submit</button>
           <button className='login-btn2' onClick={() => naviagte("/")}>Login</button>
         </div> : <div className="d-flex flex-column w-50"> 
-        <div className='reset'> Password recovery Link has been send to your registered mobile no. <br/>
-            in case of you didn’t recieve link,<br />
+        <div className='reset'> Password recovery Link has been sent to your registered mobile no. <br/>
+            in case of you didn’t recieved the link,<br />
           Contact Admin office of your near-by Court </div>
             <div className="reset mt-4">Click here to, <span style={{ cursor: 'pointer', color: 'black' }} onClick={() => naviagte("/")}>Login</span></div>
           </div>}
             <div className="d-flex w-50 justify-content-center align-items-center">
-              <img src={img2} alt="supreme court" className='w-100' style={{height: '88%'}}/>
+              <img src={img2} alt="supreme court" className='w-110' style={{height: '100%'}}/>
             </div>
         </div>
         <Footer/>
@@ -36,3 +36,10 @@ const ForgetPassword = () => {
 }
 
 export default ForgetPassword
+
+
+
+
+
+
+
