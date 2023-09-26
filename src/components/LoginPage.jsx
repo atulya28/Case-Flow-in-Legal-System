@@ -17,13 +17,13 @@ const LoginPage = () => {
                   <img src={img3} alt="sih" style={{ height: '10rem', width: '10rem' }} />
             </div>
         <div className="d-flex flex-column justify-content-center align-items-center mt-5" style={{width: '43%', gap: '1rem'}}>
-              <div className="d-flex flex-column w-100">
-                <label className='input-font' style={{textAlign: 'left'}}>License ID</label>
-                <input className='input-inp' />
+              <div className="d-flex flex-column w-100 mb-2">
+                <label className='input-font ' style={{textAlign: 'left'}}>License ID</label>
+            <input className='input-inp px-2' placeholder='DCxxxx24Fx' />
               </div>
               <div className="d-flex flex-column w-100">
             <label className='input-font' style={{ textAlign: 'left' }}>Password</label>
-                <input className='input-inp' />
+            <input className='input-inp px-2' placeholder='Xxxx@yyy' />
               </div>
           <button className='login-btn' onClick={() => naviagte("/home")}>Login</button>
           <div className='login-forget' onClick={() => naviagte("/forgot-password")}>Forgot Password</div>

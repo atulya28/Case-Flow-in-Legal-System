@@ -60,10 +60,10 @@ const Home = () => {
           </tbody>
         </Table>
         <div className="d-flex mt-3" style={{marginLeft: 'auto'}}>
-          <div className='me-2 fw-bold' onClick={() => setSkip(1)}>1</div>
-          <div className='me-2 fw-bold' onClick={() => setSkip(2)}>2</div>
-          <div className='me-2 fw-bold' onClick={() => setSkip(3)}>3</div>
-          <div className='me-2 fw-bold' onClick={() => setSkip(4)}>4</div>
+          <div className={skip == 1 ? 'me-2 fw-bold' : 'me-2 fw-bold2'} onClick={() => setSkip(1)}>1</div>
+          <div className={skip == 2 ? 'me-2 fw-bold' : 'me-2 fw-bold2'} onClick={() => setSkip(2)}>2</div>
+          <div className={skip == 3 ? 'me-2 fw-bold' : 'me-2 fw-bold2'} onClick={() => setSkip(3)}>3</div>
+          <div className={skip == 4 ? 'me-2 fw-bold' : 'me-2 fw-bold2'} onClick={() => setSkip(4)}>.... &nbsp; 4</div>
         </div>
       </div>
 
